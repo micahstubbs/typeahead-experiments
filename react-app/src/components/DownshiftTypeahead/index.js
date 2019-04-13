@@ -9,7 +9,7 @@ import renderInput from "./renderInput";
 import renderSuggestion from "./renderSuggestion";
 import getSuggestions from "./getSuggestions";
 
-function IntegrationDownshift(props) {
+function DownshiftTypeahead(props) {
   const { classes } = props;
 
   return (
@@ -54,8 +54,8 @@ function IntegrationDownshift(props) {
   );
 }
 
-IntegrationDownshift.propTypes = {
+DownshiftTypeahead.propTypes = {
   classes: PropTypes.object.isRequired
 };
 
-export default withStyles(styles)(IntegrationDownshift);
+export default withStyles(styles)(DownshiftTypeahead);
