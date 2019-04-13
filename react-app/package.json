@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^3.9.3",
     "downshift": "^3.2.7",
     "lodash": "^4.17.11",
     "material-ui": "^0.20.2",
