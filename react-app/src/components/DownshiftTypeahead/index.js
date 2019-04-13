@@ -29,7 +29,7 @@ function DownshiftTypeahead(props) {
               fullWidth: true,
               classes,
               InputProps: getInputProps({
-                placeholder: "Search a country (start with a)"
+                placeholder: "Search for a country"
               })
             })}
             <div {...getMenuProps()}>
