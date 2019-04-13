@@ -31,8 +31,6 @@ function getSuggestions(value) {
       });
 }
 
-let popperNode;
-
 function IntegrationDownshift(props) {
   const { classes } = props;
 
